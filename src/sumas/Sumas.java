@@ -6,12 +6,14 @@ public class Sumas {
    
     public static void main(String[] args) {
      int dato1 = 2, dato2 = 3; 
-     int suma, multiplicacion; 
+     int suma; 
      suma = dato1 + dato2;
      System.out.println("suma " + suma);
      
+     int multiplicacion; 
      multiplicacion = dato1 * dato2;
-     System.out.println("la multiplicacion es" + multiplicacion);
+     System.out.println("la multiplicacion" + multiplicacion);
+  
     }
     
 }
